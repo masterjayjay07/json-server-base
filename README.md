@@ -15,10 +15,27 @@ POST /users
 Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
 Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
 
-
 ### Login
 
 POST /login <br/>
 POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+
+### Acessar Pokemon
+
+GET /pokemon
+
+Esse endpoints pode ser usado para acessar todos os pokemon cadastrados na lista "pokemon". Qualquer um pode acessar a lista porém ninguém pode escrever nela
+
+### Cadastrar pokemon favorito
+
+POST /favoritePokemon
+
+esse endpoint irá cadastrar um pokemon na lista de "favoritePokemon", sendo que precisa estar logado para fazer esse cadastro.
+
+### Ver os pokemon favoritos
+
+GET /favoritePokemon
+
+esse endpoint irá mostrar todos os pokemon da lista "favoritePokemon", sendo que precisa estar logado para poder ver a lista.

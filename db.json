@@ -6,6 +6,54 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "johao@mail.com",
+      "password": "$2a$10$4UDDXCL3c/4d1mPRQee.gOBH2xO0d3I2iLUg0HQWVywaCRk00izDe",
+      "name": "Johão",
+      "age": 26,
+      "id": 2
+    }
+  ],
+  "pokemon": [
+    {
+      "name": "Lucario",
+      "type": "Fighting/Steel",
+      "id": 1
+    },
+    {
+      "name": "Sceptile",
+      "type": "Grass",
+      "id": 2
+    },
+    {
+      "name": "Darkrai",
+      "type": "Dark",
+      "id": 3
+    },
+    {
+      "name": "Mewtwo",
+      "type": "Psychic",
+      "id": 4
+    },
+    {
+      "name": "Garchomp",
+      "type": "Dragon/Ground",
+      "id": 5
+    }
+  ],
+  "favoritePokemon": [
+    {
+      "name": "Lucario",
+      "type": "Fighting/Steel",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "name": "Sceptile",
+      "type": "Grass",
+      "userId": 2,
+      "id": 2
     }
   ]
 }
